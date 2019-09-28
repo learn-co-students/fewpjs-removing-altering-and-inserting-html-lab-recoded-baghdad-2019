@@ -1,4 +1,5 @@
 // Write your code here!
 
 main.remove();
-var newHeader = document.getElementById("victory").nodeName;
+let newHeader=document.querySelector("h1#victory");
+newHeader.innerHTML="is the champion"; 
